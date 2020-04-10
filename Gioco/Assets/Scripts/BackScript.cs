@@ -8,5 +8,6 @@ public class BackScript : MonoBehaviour
     public void backToMenu()
     {
         SceneManager.LoadScene("MainMenù");
+        Time.timeScale = 1f;
     }
 }

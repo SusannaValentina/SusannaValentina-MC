@@ -10,7 +10,7 @@ public class SceneSelectScript : MonoBehaviour
         switch (this.gameObject.name)
         {
             case "Start":
-                SceneManager.LoadScene("Level1");
+                SceneManager.LoadScene("Livello1");
                 break;
             case "Options":
                 SceneManager.LoadScene("Options");
